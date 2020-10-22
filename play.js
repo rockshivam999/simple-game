@@ -52,3 +52,10 @@ $(document).keypress(function(){
     }
 
 });
+
+function formobileuserStartGame(){
+    if(gameover){    nextSquence();
+    
+        gameover=false;
+        }
+}
